@@ -2,23 +2,22 @@
     display:flex;
     background-color: grey;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    
+    justify-content: flex-end;
+    align-items: stretch;
     }
 
  .flex-item {
 background-color: aqua;
-padding: 300px;
-margin: 100px;
+padding: 100px;
+margin: 20px;
 }
 
 @media (max-width: 600px) {
     .flex-container {
         flex-direction: column;
         background-color: red;
-        justify-content: flex-end; 
-        align-items: flex-start;
+        justify-content: center; 
+        align-items: center;
 
     }
 }
