@@ -4,6 +4,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     }
     @media (max-width: 600px) {
         .flex-container {
@@ -17,6 +18,6 @@
 .flex-item {
 background-color: aqua;
 padding: 300px;
-margin: 50px;
+margin: 100px;
 
 }
