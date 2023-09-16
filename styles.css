@@ -3,12 +3,13 @@
     background-color: grey;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: flex-start;
     }
 
 
 .flex-item {
 background-color: aqua;
-padding: 500px;
+padding: 300px;
 margin: 50px;
 
 }
