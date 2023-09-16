@@ -1,0 +1,11 @@
+.flex-container {
+    display:flex;
+    background-color: grey;
+    flex-direction: column;
+    }
+.flex-item {
+background-color: aqua;
+padding: 50px;
+margin: 50px;
+
+}
